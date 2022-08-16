@@ -28,6 +28,7 @@ a{
     height: 100vh;
     overflow-y:scroll;
     perspective: 10px;
+    overflow-x: hidden;
 }
 
 
@@ -68,6 +69,12 @@ a{
 @media(max-width: 500px){
     #backgroundImage{
         transform: translateZ(-20px) scale(15);
+    }
+}
+
+@media(max-width: 400px){
+    #backgroundImage{
+        transform: translateZ(-20px) scale(19);
     }
 }
 
@@ -152,6 +159,20 @@ nav a:hover{
     }
 }
 
+@media(max-width: 400px){
+    nav .guideButtons{
+        width: 100%;
+    }
+
+    nav .guideButtons a{
+        font-size: medium;
+    }
+
+    nav #name{
+        position: relative;
+        right: 34px;
+    }
+}
 
 /**
 * ? About section styling
@@ -201,7 +222,8 @@ nav a:hover{
 
 @media(max-width: 500px){
     #about {
-        padding: 12em 2em;
+        padding: 0 2em;
+        padding-bottom: 25vh;
     }
 }
 
