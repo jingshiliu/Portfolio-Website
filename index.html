@@ -32,7 +32,7 @@
 
         <img id="backgroundImage" src="images/background.jpg" alt="">
 
-        
+
 
         <section id="about" class="portfolioSection">
             <!-- <img src="images/myPicBefore.jpg" alt="" id="portrait"> -->
@@ -67,21 +67,24 @@
         <section id="skills" class="portfolioSection">
             <h2 class="sectionHeader">Skills</h2>
             <p class="sectionParagraph">
-                Here is the technologies and programming languages I know. I expecting to expand this section in the future.
+                Here is the technologies and programming languages I know. I expecting to expand this section in the
+                future.
             </p>
             <div id="programmingLanguages">
                 <h3>Programming languages</h3>
-                <img src="icons/html-5.svg" alt="">
-                <img src="icons/css3.svg" alt="">
-                <img src="icons/javascript.svg" alt="">
-                <img src="icons/java.svg" alt="">
-                <img src="icons/python.svg" alt="">
-                <img src="icons/c++.png" alt="">
+                <img class="skillsIcon" src="icons/html-5.svg" alt="">
+                <img class="skillsIcon" src="icons/css3.svg" alt="">
+                <img class="skillsIcon" src="icons/javascript.svg" alt="">
+                <img class="skillsIcon" src="icons/java.svg" alt="">
+                <img class="skillsIcon" src="icons/python.svg" alt="">
+                <img class="skillsIcon" src="icons/c++.png" alt="">
             </div>
 
             <div id="frameworks">
-                <h3>Frameworks</h3>
-                <i class="bi bi-bootstrap"></i>
+                <h3>Frameworks, Library, and Tools</h3>
+                <i class="bi bi-bootstrap skillsIcon"></i>
+                <img class="skillsIcon" src="icons/react.svg" />
+                <img class="skillsIcon" src="icons/git.svg" />
             </div>
         </section>
 
@@ -89,20 +92,45 @@
             <h2 class="sectionHeader">Project</h2>
 
             <div class="projectBoxContainer">
+
+                <div class="projectBox">
+                    <img src="images/wholesomeHabit.png" alt="">
+                    <div class="details">
+                        <h4>Wholesome Habit Tracker</h4>
+                        <p>
+                            Created a web application that motivates users to develop a good habit by keeping track of
+                            their past health activities.
+                            Implemented backend by creating a REST API. Allowing frontend to register user, create log, and more.
+
+                        </p>
+
+                        <a href="https://github.com/NeneWang/health-tracker" target="_blank"class="github" aria-placeholder="A link to Github"
+                            target="_blank">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <br>
+
+                        <a href="http://wholesome.wangnelson.xyz/#/" target="_blank">Project Detail</a>
+                    </div>
+                </div>
+
                 <div class="projectBox">
                     <img src="images/vanillaJsShoppingCart.png" alt="">
                     <div class="details">
                         <h4>Vanilla JS Shopping Cart</h4>
                         <p>
-                            A web app implemented by HTML, CSS, Javascript, and DOM. Including 2 webpages: shopping page and shopping cart page.
+                            A web app implemented by HTML, CSS, Javascript, and DOM. Including 2 webpages: shopping page
+                            and shopping cart page.
                         </p>
 
-                        <a href="https://github.com/jingshiliu/Vanilla-JS-Shopping-Cart" class="github" aria-placeholder="A link to Github" target="_blank">
+                        <a href="https://github.com/jingshiliu/Vanilla-JS-Shopping-Cart" class="github"
+                            aria-placeholder="A link to Github" target="_blank">
                             <i class="bi bi-github"></i>
                         </a>
 
                         <br>
-                        <a target="_blank" href="https://jingshiliu.github.io/Vanilla-JS-Shopping-Cart/">Project Demo</a>
+                        <a target="_blank" href="https://jingshiliu.github.io/Vanilla-JS-Shopping-Cart/">Project
+                            Demo</a>
                     </div>
                 </div>
                 <div class="projectBox">
@@ -110,31 +138,17 @@
                     <div class="details">
                         <h4>Flash Card App</h4>
                         <p>
-                            implemented in Tkinter. A Flash Card App shows a French word and "flip" after few seconds. User press 'x' or '✔'. 
+                            implemented in Tkinter. A Flash Card App shows a French word and "flip" after few seconds.
+                            User press 'x' or '✔'.
                         </p>
-                        
-                        <a href="https://github.com/jingshiliu/Flash-Card-App" class="github" aria-placeholder="A link to Github" target="_blank">
+
+                        <a href="https://github.com/jingshiliu/Flash-Card-App" class="github"
+                            aria-placeholder="A link to Github" target="_blank">
                             <i class="bi bi-github"></i>
                         </a>
                         <br>
 
                         <a target="_blank" href="https://github.com/jingshiliu/Flash-Card-App">Project Detail</a>
-                    </div>
-                </div>
-                <div class="projectBox">
-                    <img src="images/SampleImage.png" alt="">
-                    <div class="details">
-                        <h4>Project Name</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, voluptas dolores quam, voluptatum expedita in repudiandae eius obcaecati ab ad iste consequatur iure veniam vero praesentium sit id, laborum cum.
-                        </p>
-    
-                        <a href="https://github.com/jingshiliu" class="github" aria-placeholder="A link to Github" target="_blank">
-                            <i class="bi bi-github"></i>
-                        </a>
-                        <br>
-
-                        <a href="">Project Detail</a>
                     </div>
                 </div>
             </div>
@@ -158,16 +172,22 @@
                 </a>
 
                 <span>jingshiliu07@gmail.com</span>
+
+                <div id="copiedNotification" class="notVisible">Copied</div>
             </div>
         </section>
+
+        <footer class="">
+            <a target="_blank" href="https://icons8.com/icon/101353/html-5">Html 5, CSS, Js, Java, Python, C++</a> icon by <a target="_blank"
+                href="https://icons8.com">Icons8</a>
+            <a href="https://www.flaticon.com/free-icons/react" title="react icons">React icons created by Kiranshastry - Flaticon</a>
+    
+    
+        </footer>
     </div>
 
 
-    <footer>
-        <a target="_blank" href="https://icons8.com/icon/101353/html-5">Html 5</a> icon by <a target="_blank"
-            href="https://icons8.com">Icons8</a>
-
-    </footer>
+    
 
 
 

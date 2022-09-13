@@ -241,6 +241,13 @@ nav a:hover{
 #frameworks i{
     font-size: 40px;
     color: black;
+    position: relative;
+    top: -4px;
+}
+
+.skillsIcon{
+    max-width: 40px;
+    align-self: center;
 }
 
 
@@ -329,3 +336,52 @@ nav a:hover{
 .contactMethods *{
     margin: 0 0.5em;
 }
+
+
+.contactMethods span{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border-radius: 0.5em;
+}
+
+.contactMethods span:hover{
+    background-color: #a2d2ffAA;
+
+}
+
+
+
+footer *{
+    color: white;
+}
+
+#copiedNotification{
+    display: inline-block;
+    font-size: 12px;
+    position: relative;
+    right: 0%;
+}
+
+.notVisible{
+    visibility: hidden;
+}
+
+.fadeInAnimation{
+    animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+    }
+    
+    30%{
+        opacity: 1;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+
