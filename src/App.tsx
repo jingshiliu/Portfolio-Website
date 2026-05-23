@@ -1,11 +1,25 @@
-import './App.css'
+import Nav from './components/Nav'
+import Hero from './components/Hero'
+import About from './components/About'
+import Projects from './components/Projects'
+import Experience from './components/Experience'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
-    return (
-        <div className="flex items-start justify-start h-screen">
-            <h1 className="text-4xl">Hello Vite + React + Tailwind!</h1>
-        </div>
-    );
+  return (
+    <div className="bg-[#0a0a0a] min-h-screen">
+      <Nav />
+      <main>
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App
